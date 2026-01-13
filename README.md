@@ -115,9 +115,10 @@ Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable 
   journal={Journal of Industrial Information Integration},
   volume={XX},
   number={XX},
-  pages={100XXX},
+  pages={101068},
   year={2025},
   publisher={Elsevier}
+  doi={10.1016/j.jii.2026.101068}
 }
 ```
 
