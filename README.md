@@ -143,8 +143,9 @@ If you use PIFCapsule in your research, please cite our paper:
 
 ```Plain Text
 Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring[J]. Journal of Industrial Information Integration, 2026: 101068. doi: 10.1016/j.jii.2026.101068.
+```
 
-
+```Plain Text
 @article{he2025pifcapsule,
   title={Human prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration monitoring},
   author={He, Chao and Shi, Hongmei and Liao, Jing-Xiao and Liu, Qiuhai and Li, Jianbo and Yu, Zujun},
