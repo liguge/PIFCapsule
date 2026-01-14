@@ -8,6 +8,8 @@ Rail transit vehicles endure large loads, high speeds, and harsh environment, le
 
 ### Key Features
 
+![image](https://github.com/liguge/PIFCapsule/blob/main/image/fig2.png)
+
 - **physics-informed Multi-view Feature Fusion**: Integrates wavelet transform, STFT, and blind convolution to extract complementary time/frequency domain features.
 
 - **Efficient Attention Fusion Routing (AFR)**: Reduces parameters by 82% and computational complexity by 66% compared to vanilla capsule networks.
