@@ -55,24 +55,61 @@ We validate PIFCapsule on three real-world rail transit vehicle datasets. Due to
 |BJTU₃|Subway bogie gearbox|20-60 Hz + 0/10 kN|64 kHz|9 states (Normal/GCT/GWT/GMT/GCPT/BIR/BOR/BC/BFE)|
 ### Data Preparation
 
-1. For real data, organize into the following structure:
+##### For real data, organize into the following structure:
 
 ```Plain Text
 
-data/
-├── BJTU1/
-│   ├── train/
-│   │   ├── Normal/
-│   │   ├── InnerFault/
-│   │   ├── OuterFault/
-│   │   └── BallFault/
-│   └── test/
-│       ├── Normal/
-│       ├── InnerFault/
-│       ├── OuterFault/
-│       └── BallFault/
-├── BJTU2/
-└── BJTU3/
+Datapaper/
+├── G/
+│   ├── 200.npy/
+│   ├── 
+│   ├──   
+│   ├──    
+│   ├── 
+│   └── 
+├── /
+└── /
+```
+
+## 📁 Code Structure
+
+```Plain Text
+PIFCapsule/
+├── CNN_Datasets/               # CNN dataset related
+│   ├── R_NA/                  # Specific dataset
+│   │   ├── datasets/
+│   │   │   ├── G.py          # Data generation or processing
+│   │   │   └── __init__.py
+│   │   └── __init__.py
+│   └── __init__.py
+├── DataPaper/                 # Data paper related
+│   ├── G/
+│   │   └── download.md       # Data download instructions
+│   └── __init__.py
+├── datasets/                  # Core dataset module
+│   ├── MatrixDatasets.py     # Matrix dataset processing
+│   ├── SequenceDatasets.py   # Sequence dataset processing
+│   ├── con_dataset.py        # Generic dataset processing
+│   ├── matrix_aug.py         # Matrix data augmentation
+│   ├── process_data_2.py     # Data preprocessing
+│   ├── sequence_aug.py       # Sequence data augmentation
+│   └── __init__.py
+├── models/                    # Core model module
+│   ├── CapsNetfusion.py      # Main capsule network fusion model
+│   ├── layers.py             # Capsule network layer definitions
+│   ├── blind.py              # Blind convolution processing
+│   ├── weight_init.py        # Weight initialization
+│   └── __init__.py
+├── utils/                     # Utility functions
+│   ├── logger.py             # Logging
+│   ├── loss.py               # Loss functions
+│   ├── train_utils.py        # Training main code
+│   └── __init__.py
+├── checkpoint/                # Model checkpoints
+│   └── 1
+├── train.py                   # Main training script
+├── README.md                  # Project documentation
+└── __init__.py
 ```
 
 ## 🎯 Main Results
@@ -115,10 +152,9 @@ Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable 
   journal={Journal of Industrial Information Integration},
   volume={XX},
   number={XX},
-  pages={101068},
+  pages={100XXX},
   year={2025},
   publisher={Elsevier}
-  doi={10.1016/j.jii.2026.101068}
 }
 ```
 
@@ -136,6 +172,10 @@ For questions or issues, please contact:
 
 - Chao He: [chaohe@bjtu.edu.cn](mailto:chaohe@bjtu.edu.cn)
 
+## ❤️Thanks
+
+The authors would like to express their sincere gratitude to Jing-Xiao Liao, Bin Liu, Meng Wang, Tianfu Li, Zhibin Zhao, and the anonymous editors and reviewers for their valuable help and support.
+
 ---
 
-*This repository is maintained by the Rail Transit Intelligent Monitoring Team at Beijing Jiaotong University. We welcome contributions and feedback!*
+*This repository is maintained by the Institute of Intelligent Inspection Technology for Rail Transit at Beijing Jiaotong University. We welcome contributions and feedback!*
