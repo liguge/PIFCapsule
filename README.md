@@ -22,13 +22,11 @@ Rail transit vehicles endure large loads, high speeds, and harsh environment, le
 
 **Title**: Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring  
 
-**Authors**: Chao He, Hongmei Shi*, Jing-Xiao Liao, Qiuhai Liu, Jianbo Li, Zujun Yu  
+**Authors**: **Chao He**, Hongmei Shi*, Jing-Xiao Liao, Bin Liu, Qiuhai Liu, Jianbo Li, Zujun Yu  
 
 **Journal**: Journal of Industrial Information Integration
 
-**Paper Link:**
-
-[Code Repository](https://github.com/your-username/PIFCapsule)
+**Paper Link:**  https://doi.org/10.1016/j.jii.2026.101068
 
 ## 🛠️ Installation
 
@@ -106,7 +104,6 @@ PIFCapsule/
 │   ├── train_utils.py        # Training main code
 │   └── __init__.py
 ├── checkpoint/                # Model checkpoints
-│   └── 1
 ├── train.py                   # Main training script
 ├── README.md                  # Project documentation
 └── __init__.py
@@ -130,7 +127,7 @@ PIFCapsule/
 |EfficientCapsule|2.76|68.80|71.51%|
 ## 🌟 Key Innovations
 
-1. **Human-Computer Collaboration Paradigm**: Embeds signal processing prior knowledge into the first layer, guiding model optimization.
+1. **First-layer interpretable paradigm**: Embeds signal processing prior knowledge into the first layer, guiding model optimization.
 
 2. **AFR Mechanism**: Enables efficient cross-modal fusion without additional bottleneck layers.
 
@@ -154,6 +151,7 @@ Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable 
   number={XX},
   pages={100XXX},
   year={2025},
+  doi={10.1016/j.jii.2026.101068},
   publisher={Elsevier}
 }
 ```
@@ -170,7 +168,7 @@ Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable 
 
 For questions or issues, please contact:
 
-- Chao He: [chaohe@bjtu.edu.cn](mailto:chaohe@bjtu.edu.cn)
+- Chao He: chaohe#bjtu.edu.cn
 
 ## ❤️Thanks
 
