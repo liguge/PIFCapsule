@@ -119,7 +119,7 @@ PIFCapsule/
 |---|---|---|---|
 |BJTU₁|98.02%|83.52%|80.28%|
 |BJTU₂|90.82%|42.02%|43.46%|
-|BJTU₃|98..31%|79.58%|90.78%|
+|BJTU₃|98.31%|79.58%|90.78%|
 ### Parameter & Complexity Comparison
 
 |Model|Parameters (MB)|FLOPs (MB)|Accuracy|
