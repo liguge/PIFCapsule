@@ -147,16 +147,16 @@ PIFCapsule/
 
 If you use PIFCapsule in your research, please cite our paper:
 
-```Plain Text
+```tex
 Chao He, Hongmei Shi, Jing-Xiao Liao, Bin Liu, Qiuhai Liu, Jianbo Li and Zujun Yu. Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring[J]. Journal of Industrial Information Integration, 2026，51: 101068. doi: 10.1016/j.jii.2026.101068.
-
-
+```
+```tex
 @article{he2025pifcapsule,
   title={Human prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration monitoring},
   author={He, Chao and Shi, Hongmei and Liao, Jing-Xiao and Liu, Qiuhai and Li, Jianbo and Yu, Zujun},
   journal={Journal of Industrial Information Integration},
   volume={51},
-  pages={100XXX},
+  pages={101068},
   year={2025},
   doi={10.1016/j.jii.2026.101068},
   publisher={Elsevier}
