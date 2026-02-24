@@ -1,5 +1,10 @@
 # Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring
 
+## Article Interpretation
+
+- Brief Version:
+- Full Interpretation:
+
 ## 🔍 Overview
 
 Rail transit vehicles endure large loads, high speeds, and harsh environment, leading to component failure. The first-layer interpretable paradigm (FLIP) embeds human prior knowledge into smart equipment, which is one of intelligent paradigms guided by customized manufacturing and embodied intelligence. It consists of first-layer interpretable modules, backbones, loss metrics. However, existing efforts rely on single-source information, an absence of interpretable backbones, an inability to feature fusion, thereby struggling with multi-excitation, coupled signals. To bridge this gap, a FLIP-based one-stage multi-view capsule fusion network (PIFCapsule) is proposed. Firstly, a signal processing prior-empowered first-layer interpretable module is devised to realize automatic parameter optimization and highlight the complementarity between multi-view features from different signal processing algorithms. Secondly, an interpretable capsule network serves as the backbone. To overcome the inefficiency and shortage of information fusion, an efficient attention fusion routing (AFR) is proposed to reduce the parameters (about 5.72 times) and the complexity (about 2.93 times) in contrast to the vanilla capsule-based network. In response to the lack of physics-based constraints during training, a noise threshold amplitude ratio (NTAR) is posed as a regularization, which enhances weak periodic transient pulses by suppressing learned noises. The effectiveness and reliability are verified through three real-world rail transit vehicle datasets: PIFCapsule outperforms the state-of-the-art by 6.77% in accuracy with only ten samples. Given the lightweight nature, it holds substantial promise to be deployed in intelligent edge devices. Code is available at https://github.com/liguge/PIFCapsule.
@@ -7,8 +12,6 @@ Rail transit vehicles endure large loads, high speeds, and harsh environment, le
 ![image](https://github.com/liguge/PIFCapsule/blob/main/image/Fig1.png)
 
 ### Key Features
-
-![image](https://github.com/liguge/PIFCapsule/blob/main/image/fig2.png)
 
 - **physics-informed Multi-view Feature Fusion**: Integrates wavelet transform, STFT, and blind convolution to extract complementary time/frequency domain features.
 
@@ -119,7 +122,7 @@ PIFCapsule/
 |---|---|---|---|
 |BJTU₁|98.02%|83.52%|80.28%|
 |BJTU₂|90.82%|42.02%|43.46%|
-|BJTU₃|98.31%|79.58%|90.78%|
+|BJTU₃|98..31%|79.58%|90.78%|
 ### Parameter & Complexity Comparison
 
 |Model|Parameters (MB)|FLOPs (MB)|Accuracy|
@@ -142,16 +145,15 @@ PIFCapsule/
 If you use PIFCapsule in your research, please cite our paper:
 
 ```Plain Text
-Liu, Jianbo Li and ZuJun Yu. Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring[J]. Journal of Industrial Information Integration, 2026, 51: 101068. doi: 10.1016/j.jii.2026.101068.
-```
+Chao He, Hongmei Shi, Jing-Xiao Liao, Bin Liu, Qiuhai Liu, Jianbo Li and Zujun Yu. Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring[J]. Journal of Industrial Information Integration, 2026，51: 101068. doi: 10.1016/j.jii.2026.101068.
 
-```Plain Text
+
 @article{he2025pifcapsule,
   title={Human prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration monitoring},
   author={He, Chao and Shi, Hongmei and Liao, Jing-Xiao and Liu, Qiuhai and Li, Jianbo and Yu, Zujun},
   journal={Journal of Industrial Information Integration},
   volume={51},
-  pages={101068},
+  pages={100XXX},
   year={2025},
   doi={10.1016/j.jii.2026.101068},
   publisher={Elsevier}
