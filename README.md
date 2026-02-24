@@ -3,6 +3,9 @@
 ## Article Interpretation
 
 - Brief Version:
+  - Zhihu：https://zhuanlan.zhihu.com/p/2008662696325833863
+  - Weixin：
+
 - Full Interpretation:
 
 ## 🔍 Overview
