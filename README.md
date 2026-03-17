@@ -4,9 +4,10 @@
 
 - Brief Version:
   - Zhihu：https://zhuanlan.zhihu.com/p/2008662696325833863
-  - Weixin：
-
-- Full Interpretation:
+  - Weixin：https://mp.weixin.qq.com/s/DAt-iVc7ExAktN7Zk6wT8A
+  - CSDN: https://blog.csdn.net/huantaiqiu/article/details/159115674
+    
+- Full Interpretation: https://mp.weixin.qq.com/s/OUxFJ0ZoPCgOjiEyp4WBUg
 
 ## 🔍 Overview
 
