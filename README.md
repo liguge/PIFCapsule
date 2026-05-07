@@ -187,3 +187,6 @@ The authors would like to express their sincere gratitude to Jing-Xiao Liao, Bin
 ---
 
 *This repository is maintained by the Institute of Intelligent Inspection Technology for Rail Transit at Beijing Jiaotong University. We welcome contributions and feedback!*
+
+
+[![Hits](https://hits.sh/github.com/github.com/liguge/PIFCapsule.svg?label=Views&color=0891b2)](https://hits.sh/github.com/liguge/PIFCapsule/)
