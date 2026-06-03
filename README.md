@@ -155,7 +155,7 @@ Chao He, Hongmei Shi, Jing-Xiao Liao, Bin Liu, Qiuhai Liu, Jianbo Li and Zujun Y
 ```
 ```tex
 @article{he2025pifcapsule,
-  title={Human prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration monitoring},
+  title={Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration monitoring},
   author={He, Chao and Shi, Hongmei and Liao, Jing-Xiao and Liu, Qiuhai and Li, Jianbo and Yu, Zujun},
   journal={Journal of Industrial Information Integration},
   volume={51},
