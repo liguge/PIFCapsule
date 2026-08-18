@@ -1,4 +1,4 @@
-# 🔥Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring
+# 🔥 Prior knowledge-embedded first-layer interpretable paradigm for rail transit vehicle human-computer collaboration fault monitoring
 
 **首层可解释范式 | 机械故障诊断多视图学习**
 
